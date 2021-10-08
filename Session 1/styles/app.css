@@ -1,0 +1,91 @@
+*{
+    font-family: 'Ephesis', cursive;
+}
+.container-fluid{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 1rem;
+}
+#iImportant{
+    font-size: 30px;
+    color:rgb(19,89,146);
+    cursor: pointer;
+}
+#iImportant:hover{
+    color:rgb(238, 234, 14)
+}
+form{
+    background-color:rgba(200, 200, 200, 0.945);
+    border-radius: 10px;
+    width:30vw;
+}
+form div{
+    padding:1rem; 
+    
+}
+h6{
+    font-weight: 900;
+}
+
+.task{
+    background-color: rgb(168, 210, 245,.3);
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+}
+.task label{
+    display: block;
+}
+.task .title{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-image: url('../img/blackboard.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+header{
+    background-color: rgba(250, 9, 41, 0.5);
+    color: white;
+}
+.container-fluid-header{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 1rem;
+}
+#btnAdd #btnClear{
+    background-color: whitesmoke;
+    border: none;
+    color: rgb(32, 20, 20);
+}
+.task{
+    border: 1px solid grey;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+.taskInfo{
+    text-align: left;
+}
+.task label{
+    display: block;
+    padding: 5px;
+}
+.task label i{
+    margin-right: 1rem;
+    padding:0;
+    width: 2rem;
+    text-align: right;
+}
+.task .title{
+    display: flex;
+    justify-content: space-between;
+}
